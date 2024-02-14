@@ -4,9 +4,11 @@ import { WhatsAppLogo } from "@/components/WhatsAppLogo";
 
 export default function Home() {
   return (
-    <main className="min-h-dvh container mx-auto flex flex-col gap-8 items-center justify-center">
-      <WhatsAppLogo />
-      <PhoneForm />
+    <main>
+      <div className="min-h-dvh container mx-auto flex flex-col gap-8 items-center justify-center pb-40">
+        <WhatsAppLogo />
+        <PhoneForm />
+      </div>
       {/* DIVISOR */}
       <div className="absolute bottom-0">
         <Divisor />

@@ -6,9 +6,6 @@ export const metadata: Metadata = {
   title: "OpenChat: Accede a chats de WhatsApp sin guardar contactos",
   description:
     "OpenChat te permite acceder a tus chats de WhatsApp sin necesidad de guardar los contactos previamente. Una herramienta útil para una experiencia más eficiente.",
-  authors: {
-    name: "Bruno Martínez González",
-  },
   keywords: [
     "OpenChat",
     "WhatsApp",
@@ -18,6 +15,15 @@ export const metadata: Metadata = {
     "utilidades",
   ],
   robots: "index, follow",
+  manifest: "/manifest.json",
+  authors: {
+    name: "Bruno Martínez",
+    url: "https://www.linkedin.com/in/brunomartinezgonza/",
+  },
+  icons: [
+    { rel: "apple-touch-icon", url: "icons/icon-152x152.png" },
+    { rel: "icon", url: "icons/icon-152x152.png" },
+  ],
 };
 
 export default function RootLayout({

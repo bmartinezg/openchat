@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://cms.paidmediacampus.com
+Host: https://openwachat.vercel.app
