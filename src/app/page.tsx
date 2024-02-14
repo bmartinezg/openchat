@@ -12,7 +12,7 @@ export default function Home() {
         </div>
       </div>
       {/* DIVISOR */}
-      <div className="absolute bottom-0">
+      <div className="absolute bottom-0 right-0 left-0">
         <Divisor />
       </div>
     </main>
