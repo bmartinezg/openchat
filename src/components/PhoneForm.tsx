@@ -8,6 +8,7 @@ export const PhoneForm = () => {
   const [input, setInput] = useState("");
 
   const getLik = (): string => {
+    if (!input) return "";
     const formattedInput = input.replaceAll("+", "");
     const endpoint = `https://api.whatsapp.com/send/?phone=${formattedInput}&text&type=phone_number&app_absent=0`;
     return endpoint;
