@@ -7,3 +7,7 @@
     @apply text-center;
   }
 }
+
+.PhoneInputInput:focus-visible {
+  outline: none;
+}

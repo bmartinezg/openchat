@@ -3,7 +3,7 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-  title: "OpenChat: Accede a chats de WhatsApp sin guardar contactos",
+  title: "OpenWaChat: Accede a chats de WhatsApp sin guardar contactos",
   description:
     "OpenChat te permite acceder a tus chats de WhatsApp sin necesidad de guardar los contactos previamente. Una herramienta útil para una experiencia más eficiente.",
   keywords: [

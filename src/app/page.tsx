@@ -7,7 +7,9 @@ export default function Home() {
     <main>
       <div className="min-h-dvh container mx-auto flex flex-col gap-8 items-center justify-center pb-40">
         <WhatsAppLogo />
-        <PhoneForm />
+        <div className="animate-fade-up animate-ease-out">
+          <PhoneForm />
+        </div>
       </div>
       {/* DIVISOR */}
       <div className="absolute bottom-0">
