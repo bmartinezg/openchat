@@ -35,7 +35,7 @@ export default function RootLayout({
     <html lang="es">
       <body>
         {children}
-        <Analytics />
+        {process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>
   );
